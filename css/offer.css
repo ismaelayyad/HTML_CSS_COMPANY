@@ -1,0 +1,32 @@
+/******** offer style ********/
+.offer-item{
+    width: 30%;
+    float: left;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    padding: 30px 15px 30px 70px;
+    position: relative;
+}
+.offer-item.mg{
+    margin: 0 5%;
+}
+.offer-item .icon{
+    position: absolute;
+    top: 32px;
+    left: 25px;
+    color: var(--mainColor);
+}
+.offer-item-title{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    transition: color 0.3s;
+}
+.offer-item:hover .offer-item-title{
+    color: var(--whiteColor);
+}
+.offer-item-desc{
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    line-height: 1.6;
+    color: var(--grayColor);
+}

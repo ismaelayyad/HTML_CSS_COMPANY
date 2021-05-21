@@ -1,0 +1,55 @@
+/*************** pricing section **************/
+.pricing-item{
+    width: 30%;
+    float: left;
+    padding: 40px 15px;
+    border: 1px solid #eee;
+    text-align: center;
+}
+.pricing-item.mg{
+    margin: 0 5%;
+}
+.pricing-item-text{
+    text-transform: uppercase;
+    color: var(--grayColor);
+    transition: color 0.3s;
+}
+.pricing-item-permonth{
+    width: 130px;
+    height: 130px;
+    padding: 20px 0;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 3px solid var(--mainColor);
+    transition: color 0.3s;
+}
+.pricing-item-permonth .doller{
+    font-size: 45px;
+}
+.pricing-item-permonth .month{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+.pricing-list{
+    list-style: none;
+}
+.pricing-list li{
+    color:var(--grayColor);
+    line-height: 2;
+}
+.pricing-item-purchase{
+    background: none;
+    border: 1px solid var(--mainColor);
+    color: var(--mainColor);
+    width: 140px;
+    margin: 15px auto 0;
+    padding: 10px;
+    cursor: pointer;
+}
+.pricing-item:hover .pricing-item-permonth{
+    color: var(--whiteColor);
+}
+.pricing-item:hover .pricing-item-text{
+    color: var(--mainColor);
+}

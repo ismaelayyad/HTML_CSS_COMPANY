@@ -1,0 +1,49 @@
+/********************* contact section ********************/
+.contact-method{
+    overflow: hidden;
+}
+.contact-item{
+    width: 30%;
+    text-align: center;
+    float: left;
+}
+.contact-item.mg{
+    margin: 0 5%;
+}
+.contact-item i{
+    color: var(--mainColor);
+    margin: 10px;
+}
+.contact-main{
+    margin-bottom: 10px;
+}
+.contact-item span{
+    color: var(--grayColor);
+}
+.contact-form{
+    margin-top: 70px;
+    text-align: center;
+}
+.contact-form input, .contact-form textarea{
+    width: 35%;
+    padding: 15px 10px;
+    background: #f9f9f9;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    color:var(--grayColor);
+}
+.contact-form .inp{
+    width: 70%;
+    margin-top: 25px;
+}
+.contact-form .contact-submit{
+    background: var(--mainColor);
+    color: var(--whiteColor);
+    padding: 20px;
+    margin-top: 25px;
+    width: 220px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+} 

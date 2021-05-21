@@ -1,0 +1,59 @@
+/***** service style ******/
+.service{
+    background-color:#f9f9f9;
+}
+.service-item{
+    width: 50%;
+    float: left;
+}
+.service-item .section-header{
+    text-align: left;
+}
+.service-item .section-header .line{
+    margin: 0 0 40px;
+}
+.service-item-desc{
+    padding-right: 25px;
+    color: var(--grayColor);
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.service-list{
+    list-style: none;
+}
+.service-list li{
+    margin-bottom: 15px;
+    color: var(--grayColor);
+}
+.service-list li i{
+    border: 1px solid var(--mainColor);
+    color: var(--mainColor);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 19px;
+}
+.service-item-img img{
+    width: 100%;
+}
+.service-item .bolets{
+    list-style: none;
+    text-align: center;
+}
+.service-item .bolets li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+.service-item .bolets li:hover{
+    background-color: var(--mainColor);
+}
+.service-item .bolets li.active{
+    background-color: var(--mainColor);
+    width: 15px;
+    border-radius: 5px;
+}

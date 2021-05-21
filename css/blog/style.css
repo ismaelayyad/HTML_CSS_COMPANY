@@ -1,0 +1,245 @@
+/*************** general style ************/
+.float-l{
+    float: left;
+}
+.width-50{
+    width: 50%;
+}
+.capital{
+    text-transform: capitalize;
+}
+.upper{
+    text-transform: uppercase;
+}
+.list-none{
+    list-style: none;
+}
+.margin-b-35{
+    margin-bottom: 35px;
+}
+.margin-b-25{
+    margin-bottom: 25px;
+}
+.margin-b-15{
+    margin-bottom: 15px;
+}
+.margin-t-25{
+    margin-top: 25px;
+}
+.pd-30{padding: 30px;
+}
+.pd-y-15{
+    padding: 15px 0;
+}
+.width-100{
+    width: 100%;
+}
+
+.gray{
+    color: var(--grayColor);
+}
+/************** header section ***************/
+.header {
+    background: var(--whiteColor);
+}
+.header .nav > li > a{
+    color:var(--blackColor);
+}
+/**************** top section *******************/
+.top-page {
+    padding: 150px 0 135px;
+    background: #f9f9f9;
+    margin-bottom: 40px;
+
+}
+
+.breadcrumbs{
+    text-align: right;
+    line-height: 32px;
+}
+.breadcrumbs li{
+    display: inline-block;
+}
+.breadcrumbs li a{
+    color: var(--mainColor);
+
+}
+/****************** main-left ****************/
+.main-left{
+    width: 72%;
+    margin-right: 3%;
+}
+.blog-title {
+    margin: 15px 0;
+}
+.blog-desc {
+    margin-bottom: 40px;
+}
+.tags a{
+    color: var(--blackColor);
+    margin-right: 10px;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 3px;
+    background:#f9f9f9;
+    display: inline-block;
+}
+.tags a i{
+    margin-right: 3px;
+    color:var(--mainColor);
+}
+/** about **/
+.about{
+    overflow: hidden;
+    border: 1px solid #f9f9f9;
+}
+.about-name-link{
+    overflow: hidden;
+    border-bottom: 1px solid #f9f9f9;
+    padding: 0 0 10px 0;
+}
+.about-img{
+    width: 20%;
+}
+.about-info{
+    width: 78%;
+    margin-left: 2%;
+}
+.about-link{
+    list-style: none;
+    text-align: right;
+
+}
+.about-link li{
+    display: inline-block;
+}
+.about-link li a{
+    width: 24px;
+    height: 24px;
+    background: var(--mainColor);
+    color: var(--whiteColor);
+    display: inline-block;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 3px;
+}
+.about-desc{
+    color: var(--grayColor);
+}
+/*** comment ***/
+.comment-item{
+    overflow: hidden;
+    border: 1px solid #f9f9f9;
+}
+.comment-img{
+    width: 8%;
+}
+.comment-info{
+    width: 90%;
+    margin-left: 2%;
+}
+.comment-name{
+    display: inline-block;
+    margin-right: 30px;
+}
+.comment-reply{
+    float: right;
+    color: var(--mainColor);
+    cursor: pointer;
+}
+.auther-reply{
+    background: #f9f9f9;
+    border: 1px solid var(--mainColor);
+}
+.auther-reply .comment-name{
+    color: var(--mainColor);
+}
+/*** contact ***/
+.comment-form input , .comment-form textarea{
+    border: 0;
+    background: #f9f9f9;
+    font-size: 16px;
+    padding: 10px;
+}
+.comment-form input{
+    width: 47.5%;
+}
+.comment-form textarea{
+    width: 100%;
+    height: 120px;
+}
+.comment-form .mg{
+    margin-left: 5%;
+}
+.comment-form .comment-submit{
+    background: var(--mainColor);
+    color: var(--whiteColor);
+    padding: 10px;
+    margin-top: 25px;
+    width: 220px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/****************** main-right ****************/
+.main-right{
+    width: 25%;
+}
+
+.search input{
+    border: 0;
+    padding: 15px 5px;
+    background: #f9f9f9;
+    font-size: 16px;
+    width: 90%;
+}
+.search a i{
+    background: #f9f9f9;
+    padding: 15px 0;
+    width: 10%;
+    text-align: center;
+    color: var(--mainColor)
+}
+h2.section-title {
+    text-align: left;
+    font-size: 25px !important;
+    text-transform: uppercase !important;
+}
+.section-header .line {
+    margin: 0;
+}
+.catigory-list{
+    margin:15px 0
+}
+.catigory-list li a{
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #f9f9f9;
+    display: inline-block;
+    width: 100%;
+    color: var(--blackColor)
+}
+.catigory-list li a span{
+    float: right;
+    color: var(--mainColor);
+}
+
+.popular-content{
+    margin-top: 20px;
+}
+.popular-item{
+    overflow: hidden;
+}
+.popular-item-img{
+ padding-right: 3%;
+ width: 47%;
+}
+.popular-item-title{
+    color: var(--blackColor);
+}
+.popular-time{
+    color: var(--mainColor);
+}
+.r-tags{
+    margin-top: 25px;
+}

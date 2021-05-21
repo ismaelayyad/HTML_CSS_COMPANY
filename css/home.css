@@ -1,0 +1,43 @@
+/*************** home section style */
+.home{
+    height: 100vh;
+    background-image: url(../images/background/background1.webp);
+    background-size: cover;
+    position: relative;
+}
+.home-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: var(--whiteColor);
+    width: 65%;
+}
+.home-content .title{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.home-des{
+    margin: 20px 0;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.btn{
+    padding: 12px 0;
+    min-width: 150px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.btn-start{
+    background: var(--whiteColor);
+    margin-right: 10px;
+}
+.btn-learn{
+    background: var(--mainColor);
+    margin-left: 10px;
+    color: var(--whiteColor);
+}

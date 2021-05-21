@@ -1,0 +1,92 @@
+/*************** General Style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+:root{
+    --mainColor: #6195ff;
+    --grayColor: #999;
+    --blackColor: #0d0c14;
+    --whiteColor: #fff;
+}
+body{
+    font-family: 'Varela', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+ul{
+    list-style: none;
+}
+button{
+    font-family: inherit;
+}
+.hover-opacity{
+    transition: opacity 0.5s;
+}
+.hover-opacity:hover{
+    opacity: 0.8;
+}
+a{
+    text-decoration: none;
+}
+.section-header{
+    text-align: center;
+}
+.section-header .section-title{
+    font-size: 32px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.section-header .line{
+    display: block;
+    width: 60px;
+    height: 5px;
+    margin: 0 auto 70px auto;
+    background: var(--mainColor);
+}
+.pd-y{
+    padding: 60px 0;
+}
+.ltr-effect:hover:after{
+    width: 100%;
+}
+.ltr-effect,
+.tb-effect{
+    position: relative;
+}
+.ltr-effect:after,
+.tb-effect:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--blackColor);
+    transition: 0.3s;
+    z-index: -1;
+}
+.ltr-effect:after{
+    width: 0%;
+    height: 100%;
+}
+.tb-effect:hover:after{
+    height: 100%;
+}
+.tb-effect:after{
+    width: 100%;
+    height: 0%;
+}
